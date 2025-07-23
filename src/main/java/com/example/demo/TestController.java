@@ -13,4 +13,9 @@ public class TestController {
      public String testEndpoint() {
          return "This is a test endpoint";
      }
+
+    @GetMapping
+    public String home() {
+        return "This is a home endpoint";
+    }
 }
